@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Prénom Nom</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="nav-bar">
+      <div class="logo">~/<span>prenom-nom</span></div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="competences.html">Compétences</a></li>
+          <li><a href="projets.html">Projets</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrapper">
+
+      <section>
+        <span class="eyebrow">// ping prenom-nom</span>
+        <h1>Contact</h1>
+        <p>
+          Étudiant en BTS SIO SISR, à la recherche d'une alternance pour la rentrée. N'hésite pas
+          à me contacter pour toute opportunité ou question sur mon parcours.
+        </p>
+      </section>
+
+      <section>
+        <div class="grid grid-2">
+
+          <div class="card">
+            <h3>📧 Email</h3>
+            <p><a href="mailto:prenom.nom@email.com">prenom.nom@email.com</a></p>
+
+            <h3>💼 LinkedIn</h3>
+            <p><a href="https://linkedin.com/in/ton-profil" target="_blank" rel="noopener">linkedin.com/in/ton-profil</a></p>
+
+            <h3>💻 GitHub</h3>
+            <p><a href="https://github.com/ton-pseudo" target="_blank" rel="noopener">github.com/ton-pseudo</a></p>
+
+            <h3>📄 CV</h3>
+            <p><a href="cv.pdf" target="_blank">Télécharger mon CV (PDF)</a></p>
+          </div>
+
+          <div class="card">
+            <h3>Envoyer un message</h3>
+            <p style="font-size:0.85rem;">
+              Ce formulaire est statique pour le moment (GitHub Pages n'exécute pas de code serveur).
+              Pour qu'il fonctionne vraiment, tu peux brancher un service gratuit comme
+              <a href="https://formspree.io" target="_blank" rel="noopener">Formspree</a>.
+            </p>
+            <form>
+              <div>
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom" required>
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+              </div>
+              <button type="submit" class="btn" style="cursor:pointer; border:1px solid var(--accent);">Envoyer →</button>
+            </form>
+          </div>
+
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      <span>© 2026 Prénom Nom</span>
+      <span>Dernière mise à jour : juin 2026</span>
+    </div>
+  </footer>
+
+</body>
+</html>

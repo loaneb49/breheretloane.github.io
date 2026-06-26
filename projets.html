@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projets — Prénom Nom</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="nav-bar">
+      <div class="logo">~/<span>prenom-nom</span></div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="competences.html">Compétences</a></li>
+          <li><a href="projets.html" class="active">Projets</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrapper">
+
+      <section>
+        <span class="eyebrow">// ls -la projets/</span>
+        <h1>Projets</h1>
+        <p>
+          Projets réalisés en cours (CDA / Cas pratiques / TP) et en autonomie. Remplace les détails
+          ci-dessous par tes vrais projets dès que tu en as (même un simple TP réseau bien documenté compte).
+        </p>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Projets de formation</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="grid grid-2">
+
+          <div class="card">
+            <div class="file-list"><span>📁</span> projet-01_infra-ad/</div>
+            <h3>Mise en place d'un domaine Active Directory</h3>
+            <p>
+              Installation et configuration d'un serveur Windows Server, création d'un domaine AD,
+              gestion des utilisateurs, groupes et GPO sur un parc de postes virtualisés.
+            </p>
+            <div class="tags">
+              <span class="tag">Windows Server</span>
+              <span class="tag alt">Active Directory</span>
+              <span class="tag">VirtualBox</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="file-list"><span>📁</span> projet-02_reseau-vlan/</div>
+            <h3>Plan d'adressage et segmentation VLAN</h3>
+            <p>
+              Conception d'un plan d'adressage IP pour un réseau d'entreprise simulé, configuration
+              de VLAN et de routage inter-VLAN sur Cisco Packet Tracer.
+            </p>
+            <div class="tags">
+              <span class="tag alt">Cisco Packet Tracer</span>
+              <span class="tag">TCP/IP</span>
+              <span class="tag alt">VLAN</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="file-list"><span>📁</span> projet-03_serveur-linux/</div>
+            <h3>Déploiement d'un serveur web sous Linux</h3>
+            <p>
+              Installation d'une distribution Debian, configuration d'un serveur Apache et d'un pare-feu
+              de base, gestion des droits et des services systemd.
+            </p>
+            <div class="tags">
+              <span class="tag">Debian</span>
+              <span class="tag alt">Apache</span>
+              <span class="tag">Bash</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="file-list"><span>📁</span> projet-04_support-glpi/</div>
+            <h3>Gestion de parc et support utilisateur (GLPI)</h3>
+            <p>
+              Mise en place d'un outil de ticketing pour le support informatique, inventaire du matériel
+              et suivi des interventions dans le cadre d'un TP de gestion de parc.
+            </p>
+            <div class="tags">
+              <span class="tag">GLPI</span>
+              <span class="tag alt">Support</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Ce site lui-même</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="card">
+          <div class="file-list"><span>📁</span> portfolio-sio/</div>
+          <h3>Portfolio personnel — HTML/CSS, déployé sur GitHub Pages</h3>
+          <p>
+            Site statique multi-pages, versionné avec Git et hébergé sur GitHub Pages. L'occasion de
+            pratiquer la mise en production et la gestion de versions, deux compétences utiles même
+            en SISR.
+          </p>
+          <div class="tags">
+            <span class="tag">HTML / CSS</span>
+            <span class="tag alt">Git / GitHub</span>
+            <span class="tag">GitHub Pages</span>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      <span>© 2026 Prénom Nom</span>
+      <span>Dernière mise à jour : juin 2026</span>
+    </div>
+  </footer>
+
+</body>
+</html>
